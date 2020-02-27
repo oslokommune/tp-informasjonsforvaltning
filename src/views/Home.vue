@@ -25,9 +25,9 @@
       &nbsp;
     </div>
     <div class="bg black">
-      <h1 style="font-size: x-large">Gevinster</h1>
+      <h1 style="font-size: xx-large">Gevinster</h1>
       <div style="margin: auto;">
-        <ul style="text-align: left;font-size: large">
+        <ul style="font-size: x-large">
           <li>Bedre datakvalitet</li>
           <li>Riktig tjeneste til riktig tid</li>
           <li>Enklere rapportering</li>
