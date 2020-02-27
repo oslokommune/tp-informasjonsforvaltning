@@ -21,6 +21,9 @@
         <h1 class="header kan-ikke-brukes-opp">er skapt for å deles</h1>
       </div>
     </div>
+    <div class="bg img">
+      &nbsp;
+    </div>
   </div>
 </template>
 
@@ -55,6 +58,10 @@ p {
 
   &.y {
     background: #ffc044;
+  }
+
+  &.img {
+    background-image: url("https://drive.google.com/file/d/1DRPyjCPvmAI38UhGbtnVEFNLdyR_zdYs/view");
   }
 }
 
