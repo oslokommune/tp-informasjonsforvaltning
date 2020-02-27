@@ -21,9 +21,6 @@
         <h1 class="header kan-ikke-brukes-opp">er skapt for å deles</h1>
       </div>
     </div>
-    <div class="bg img">
-      &nbsp;
-    </div>
     <div class="bg yellow">
       <div class="header-holder">
         <h1 class="kontakt">Kontakt</h1>
@@ -67,7 +64,10 @@ p {
   }
 
   &.img {
-    background-image: url("https://drive.google.com/file/d/1DRPyjCPvmAI38UhGbtnVEFNLdyR_zdYs/view");
+    padding-top: 100px;
+    background-image: url("https://drive.google.com/uc?id=1DRPyjCPvmAI38UhGbtnVEFNLdyR_zdYs");
+    background-repeat: no-repeat;
+    background-size: auto
   }
 }
 
