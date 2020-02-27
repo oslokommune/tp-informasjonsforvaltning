@@ -1,9 +1,16 @@
 <template>
   <div class="home">
-    <div class="wrapper">
+    <div class="bg a">
       <div class="header-holder">
         <h1 class="header">Data er <span class="ikke">IKKE</span></h1>
         <h1 class="header-undertext">den nye oljen</h1>
+      </div>
+    </div>
+    <div class="bg b">
+      <div class="header-holder">
+        <h1 class="header-undertext">Data er den nye</h1>
+        <h1 class="header"><span class="ikke">ping-pong</span></h1>
+        <h1 class="header-undertext">ballen</h1>
       </div>
     </div>
   </div>
@@ -25,14 +32,19 @@ p.old {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
-.wrapper {
-  height: 100%;
+.bg {
+  height: 100vh;
   width: 100%;
+
+  &.a {
+    background: coral;
+  }
 }
 
 .header {
   font-size: 170px;
   margin-bottom: 0;
+  margin-top: 0;
   font-weight: 300;
 
   .ikke {
@@ -42,7 +54,7 @@ p.old {
 
 .header-undertext {
   font-size: 100px;
-  margin-top: 0;
+  margin: 0;
   font-weight: 300;
 }
 

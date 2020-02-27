@@ -83,12 +83,11 @@ html, body, #app {
 }
 .content {
   flex: 1 0 auto;
-  width: calc(100% - 8rem);
+  width: 100%;
   margin: 0 auto;
 }
 
 .Header {
-  margin-bottom: 1em;
 }
 
 .Footer {
