@@ -21,6 +21,9 @@
         <h1 class="header kan-ikke-brukes-opp">er skapt for å deles</h1>
       </div>
     </div>
+    <div class="bg img">
+      &nbsp;
+    </div>
     <div class="bg yellow">
       <div class="header-holder">
         <h1 class="kontakt">Kontakt</h1>
