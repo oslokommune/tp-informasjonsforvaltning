@@ -13,7 +13,8 @@
     "minireset.css": "0.0.6",
     "styleguide": "https://github.com/oslokommune/styleguide.git#0.35.10",
     "vue": "^2.6.11",
-    "vue-router": "^3.1.5"
+    "vue-router": "^3.1.5",
+    "vue-scrollto": "^2.17.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.2.0",
