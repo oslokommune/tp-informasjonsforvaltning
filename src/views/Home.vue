@@ -21,9 +21,7 @@
         <h1 class="header kan-ikke-brukes-opp">er skapt for å deles</h1>
       </div>
     </div>
-    <div class="bg img">
-      &nbsp;
-    </div>
+
   </div>
 </template>
 

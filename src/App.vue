@@ -95,6 +95,18 @@
         </div>
       </div>
     </div>
+    <br><br>
+    <hr>
+    <h1 class="header data">Les mer</h1>
+        <div style="width: 1100px; margin: auto;">
+            <div style="width: 500px; float: left; text-align: left;">
+                <ul>
+                  <li><a href="https://doc.difi.no/data/veileder-orden-i-eget-hus">DIFI - Orden i eget hus</a></li>
+                  <li><a href="https://fellesdatakatalog.brreg.no/">Felles offentlig datakatalog</a></li>
+                  <li><a href="https://www.towardsamdex.org/">Amsterdams databørs</a></li>
+                </ul>
+            </div>
+        </div>
     <Footer />
   </div>
 </template>
