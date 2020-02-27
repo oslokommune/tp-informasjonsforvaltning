@@ -21,11 +21,15 @@
         <h1 class="header kan-ikke-brukes-opp">er skapt for å deles</h1>
       </div>
     </div>
-
     <div class="bg_img">
       &nbsp;
     </div>
-
+    <div class="bg yellow">
+      <div class="header-holder">
+        <h1 class="kontakt">Kontakt</h1>
+        <span class="kontakt-tekst">Besøk oss i Informasjonsforvaltning <a href="https://developer.oslo.kommune.no/teams/56e74cc0-09d0-4303-9bd8-638bfe518dd5">her</a></span>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -113,6 +117,13 @@ p {
   align-items: center;
 }
 
+.kontakt {
+  font-size: 150px;
+}
+
+.kontakt-tekst {
+  font-size: 100px;
+}
 
 .ArrowDown {
   position: absolute;
