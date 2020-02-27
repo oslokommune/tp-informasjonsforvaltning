@@ -87,6 +87,7 @@ p {
   &.img {
     background-image: url("https://drive.google.com/uc?id=1DRPyjCPvmAI38UhGbtnVEFNLdyR_zdYs");
     background-repeat: no-repeat;
+    background-color: black;
     background-size: 100%
   }
 }
