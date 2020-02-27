@@ -61,7 +61,10 @@ p {
   }
 
   &.img {
-    background-image: url("https://drive.google.com/file/d/1DRPyjCPvmAI38UhGbtnVEFNLdyR_zdYs/view");
+    padding-top: 100px;
+    background-image: url("https://drive.google.com/uc?id=1DRPyjCPvmAI38UhGbtnVEFNLdyR_zdYs");
+    background-repeat: no-repeat;
+    background-size: auto
   }
 }
 
