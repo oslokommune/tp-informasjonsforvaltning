@@ -34,7 +34,7 @@ export default {
   methods: {
     scrollDown() {
       console.log('Scroll')
-      window.scrollBy(0, 1000)
+      window.scrollBy(0, 1500)
     }
   }
 }
@@ -110,7 +110,7 @@ p {
   right: 100px;
 
   &:hover {
-    outline: solid 50px deeppink;
+    outline: solid 20px deeppink;
     cursor: pointer;
   }
 
