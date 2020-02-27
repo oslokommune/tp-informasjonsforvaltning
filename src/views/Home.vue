@@ -15,7 +15,7 @@
       </div>
     </div>
 
-    <div class="bg">
+    <div class="bg red">
       <div class="header-holder">
         <h1 class="header data">Data</h1>
         <h1 class="header kan-ikke-brukes-opp">er skapt for å deles</h1>
