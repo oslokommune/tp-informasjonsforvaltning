@@ -22,6 +22,10 @@
       </div>
     </div>
 
+    <div class="bg_img">
+      &nbsp;
+    </div>
+
   </div>
 </template>
 
