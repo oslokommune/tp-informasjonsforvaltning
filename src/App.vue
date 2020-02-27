@@ -95,5 +95,10 @@ html, body, #app {
   margin-top: 4em;
   flex-shrink: 0;
 }
+
+.stuff {
+  height: 100%;
+  width: 100%;
+}
 </style>
 

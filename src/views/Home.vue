@@ -1,7 +1,11 @@
 <template>
   <div class="home">
-    <h1>DATA ER IKKE<br>
-      DEN NYE OLJEN</h1>
+    <div class="wrapper">
+      <div class="header-holder">
+        <h1 class="header">Data er <span class="ikke">IKKE</span></h1>
+        <h1 class="header-undertext">den nye oljen</h1>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -21,13 +25,34 @@ p.old {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
-h1 {
-  font-size: 170px;
+.wrapper {
+  height: 100%;
+  width: 100%;
 }
 
-.home {
+.header {
+  font-size: 170px;
+  margin-bottom: 0;
+  font-weight: 300;
+
+  .ikke {
+    font-weight: 400;
+  }
+}
+
+.header-undertext {
+  font-size: 100px;
+  margin-top: 0;
+  font-weight: 300;
+}
+
+.header-holder {
+  width: 100%;
+  height: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
+
 </style>
