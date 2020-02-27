@@ -5,11 +5,11 @@
     <router-view class="content"/>
     <hr>
     <div class="bg img">
-      <h1>Tilgjenglige data</h1>
+      <h1 class="tilgjeng">Tilgjenglige data</h1>
     </div>
-    <div style="width: 1200px; margin: auto;">
+    <div class="allTEkst" style="width: 1200px; margin: auto;">
       <div style="width: 400px; float: left; text-align: left;">
-        <h2>Begrepskatalogen</h2>
+        <h2 class="h2">Begrepskatalogen</h2>
         <div>
           <input type="text" placeholder="Søk etter begrep" style="width: 75%; margin: 0px;"/><br>
           <table style="width: 100%;">
@@ -38,7 +38,7 @@
           </div>
       </div>
       <div style="width: 400px; float: right;">
-        <h2>APIer</h2>
+        <h2 class="h2">APIer</h2>
         <div style="text-align: left;">
         <input type="text" placeholder="Søk etter tilgjenglige APIer" style="width: 75%; margin: 0px;"/><br>
         <table style="width: 100%;">
@@ -55,7 +55,7 @@
         </div>
       </div>
       <div style="width: 400px; float: left;">
-        <h2>Datakatalog</h2>
+        <h2 class="h2">Datakatalog</h2>
         <div style="text-align: left;">
         <input type="text" placeholder="Søk etter tilgjenglige dataset" style="width: 75%; margin: 0px;"/><br>
         <table style="width: 100%;">
@@ -80,7 +80,7 @@
     <h1>Kom i gang med datadeling enkelt!</h1>
     <div style="width: 1100px; margin: auto;">
       <div style="width: 500px; float: left; text-align: left;">
-        <h2>I vår datakatalog</h2>
+        <h2 class="h2">I vår datakatalog</h2>
         <ol>
           <li><a href="https://developer.oslo.kommune.no/">Logg inn med din oslo-bruker</a></li>
           <li><a href="https://developer.oslo.kommune.no/katalog/data">Lag datasett</a></li>
@@ -120,6 +120,16 @@ export default {
 }
 </script>
 <style type="text/css">
+
+.h2 {
+  font-size: 35px;
+  padding-top: 50px;
+}
+.tilgjeng {
+  margin-top: 100px;
+  font-size: 80px;
+}
+
 .window {
   border-radius: 3px;
   background: #222;
@@ -269,5 +279,9 @@ html, body, #app {
 .stuff {
   height: 100%;
   width: 100%;
+}
+
+.allTEkst {
+  font-size: 30px;
 }
 </style>
