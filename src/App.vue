@@ -4,7 +4,9 @@
 
     <router-view class="content"/>
     <hr>
-    <h1>Tilgjenglige data</h1>
+    <div class="bg img">
+      <h1>Tilgjenglige data</h1>
+    </div>
     <div style="width: 1200px; margin: auto;">
       <div style="width: 400px; float: left; text-align: left;">
         <h2>Begrepskatalogen</h2>
