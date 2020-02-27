@@ -24,6 +24,19 @@
     <div class="bg img">
       &nbsp;
     </div>
+    <div class="bg black">
+      <h1 style="font-size: x-large">Gevinster</h1>
+      <div style="margin: auto;">
+        <ul style="text-align: left;font-size: large">
+          <li>Bedre datakvalitet</li>
+          <li>Riktig tjeneste til riktig tid</li>
+          <li>Enklere rapportering</li>
+          <li>Mer effektiv forvaltning</li>
+          <li>Innovasjon og ny næringsvekst</li>
+          <li>Informasjonssikkerhet og personvern</li>
+        </ul>
+      </div>
+    </div>
     <div class="bg yellow">
       <div class="header-holder">
         <h1 class="kontakt">Kontakt</h1>
@@ -64,6 +77,11 @@ p {
 
   &.yellow {
     background: #f9c66b;
+  }
+
+  &.black {
+    background: #000000;
+    color: white;
   }
 
   &.img {
