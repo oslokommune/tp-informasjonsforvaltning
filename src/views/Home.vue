@@ -4,7 +4,7 @@
       <div class="header-holder">
         <h1 class="header">Data er <span class="ikke">IKKE</span></h1>
         <h1 class="header header-undertext">den nye oljen</h1>
-        <ArrowDown/>
+        <ArrowDown @click.native="scrollDown()"/>
       </div>
     </div>
     <div class="bg y">
@@ -30,7 +30,13 @@ import ArrowDown from '@/components/ArrowDown'
 
 export default {
   name: 'Home',
-  components: { ArrowDown }
+  components: { ArrowDown },
+  methods: {
+    scrollDown() {
+      console.log('Scroll')
+      window.scrollBy(0, 1000)
+    }
+  }
 }
 </script>
 
@@ -38,10 +44,6 @@ export default {
 p {
 	font-family: 'Oslo Sans', Avenir, Helvetica, Arial, sans-serif;
 }
-p.old {
-	font-family: Avenir, Helvetica, Arial, sans-serif;
-}
-
 
 .bg {
   height: 100vh;
@@ -106,6 +108,11 @@ p.old {
   width: 150px;
   height: 150px;
   right: 100px;
+
+  &:hover {
+    outline: solid 50px deeppink;
+    cursor: pointer;
+  }
 
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
