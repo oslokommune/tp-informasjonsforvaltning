@@ -1,13 +1,13 @@
 <template>
   <div class="home">
-    <div class="bg a overst">
+    <div class="bg red overst">
       <div class="header-holder">
         <h1 class="header">Data er <span class="ikke">IKKE</span></h1>
         <h1 class="header header-undertext">den nye oljen</h1>
         <ArrowDown @click.native="scrollDown()"/>
       </div>
     </div>
-    <div class="bg y">
+    <div class="bg yellow">
       <div class="header-holder">
         <h1 class="header data">Data</h1>
         <h1 class="header kan-ikke">kan ikke</h1>
@@ -52,12 +52,12 @@ p {
   height: 100vh;
   width: 100%;
 
-  &.a {
+  &.red {
     background: coral;
   }
 
-  &.y {
-    background: #ffc044;
+  &.yellow {
+    background: #f9c66b;
   }
 
   &.img {
