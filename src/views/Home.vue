@@ -1,16 +1,24 @@
 <template>
   <div class="home">
-    <div class="bg a">
+    <div class="bg a overst">
       <div class="header-holder">
         <h1 class="header">Data er <span class="ikke">IKKE</span></h1>
-        <h1 class="header-undertext">den nye oljen</h1>
+        <h1 class="header header-undertext">den nye oljen</h1>
+        <ArrowDown/>
       </div>
     </div>
-    <div class="bg b">
+    <div class="bg y">
       <div class="header-holder">
-        <h1 class="header-undertext">Data er den nye</h1>
-        <h1 class="header"><span class="ikke">ping-pong</span></h1>
-        <h1 class="header-undertext">ballen</h1>
+        <h1 class="header data">Data</h1>
+        <h1 class="header kan-ikke">kan ikke</h1>
+        <h1 class="header brukes-opp">brukes opp</h1>
+      </div>
+    </div>
+
+    <div class="bg">
+      <div class="header-holder">
+        <h1 class="header data">Data</h1>
+        <h1 class="header kan-ikke-brukes-opp">er skapt for å deles</h1>
       </div>
     </div>
   </div>
@@ -18,9 +26,11 @@
 
 <script>
 // @ is an alias to /src
+import ArrowDown from '@/components/ArrowDown'
 
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: { ArrowDown }
 }
 </script>
 
@@ -32,12 +42,17 @@ p.old {
 	font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
+
 .bg {
   height: 100vh;
   width: 100%;
 
   &.a {
     background: coral;
+  }
+
+  &.y {
+    background: #ffc044;
   }
 }
 
@@ -50,12 +65,29 @@ p.old {
   .ikke {
     font-weight: 400;
   }
-}
 
-.header-undertext {
-  font-size: 100px;
-  margin: 0;
-  font-weight: 300;
+  &.data {
+    font-size: 300px;
+    letter-spacing: 10px;
+    margin-bottom: -100px;
+  }
+
+  &.kan-ikke {
+    font-size: 190px;
+    letter-spacing: 15px;
+    margin-bottom: -40px;
+  }
+
+  &.brukes-opp {
+    font-size: 120px;
+    margin-bottom: -50px;
+  }
+
+  &.header-undertext {
+    font-size: 100px;
+    margin: 0;
+    font-weight: 300;
+  }
 }
 
 .header-holder {
@@ -65,6 +97,68 @@ p.old {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+
+.ArrowDown {
+  position: absolute;
+  bottom: 120px;
+  width: 150px;
+  height: 150px;
+  right: 100px;
+
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+
+  @-moz-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
 }
 
 </style>
